@@ -19,7 +19,7 @@ public class BookDAO {
 	public BookDAO() {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver"); 
-			this.conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jsp?useTimezone=true&serverTimezone=UTC", "root", "8625251@Ra");
+			this.conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jsp?useTimezone=true&serverTimezone=UTC", "root", "");
 
 			System.out.println("Connected");
 		} catch (Exception e) {
